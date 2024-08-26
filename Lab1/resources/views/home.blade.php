@@ -15,9 +15,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="content.html">Content</a></li>
+                <li><a href="{{ url('/home')}}">Home</a></li>
+                <li><a href="{{ url('/about')}}">About</a></li>
+                <li><a href="{{ url('/content')}}">Content</a></li>
             </ul>
         </nav>
     </header>
