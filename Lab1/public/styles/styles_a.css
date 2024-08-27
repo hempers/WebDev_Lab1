@@ -25,6 +25,11 @@ header {
 
 .text{
   padding-left: 40px;
+  color: #c5c5c5;
+}
+
+a:hover .text {
+  color: black;
 }
 
 .logo h1 {

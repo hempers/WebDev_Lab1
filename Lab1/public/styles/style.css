@@ -26,6 +26,11 @@ header {
 
 .text{
   padding-left: 40px;
+  color: #c5c5c5;
+}
+
+a:hover .text {
+  color: black;
 }
 
 .logo h1 {
@@ -54,6 +59,7 @@ nav ul li a {
 nav ul li a:hover {
   color: black;
 }
+
 
 article {
   --img-scale: 1.001;

@@ -11,7 +11,9 @@
 
     <header>
         <div class="logo">
-            <h1 class="text">Laravel</h1>
+        <a href="{{ url('/') }}" style="text-decoration: none;">
+        <h1 class="text">Laravel</h1>
+      </a>
         </div>
         <nav>
             <ul>
@@ -26,7 +28,7 @@
         <img src="assets/img/home/logo.svg" alt="Laravel Logo" class="logo">
         <h1>Web Development</h1>
         <h2>First Laravel Project</h2>
-        <a href="content.html">
+        <a href="{{ url('/content')}}">
         <button>Explore More</button>
         </a>
         
