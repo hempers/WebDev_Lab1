@@ -23,9 +23,14 @@ header {
     color: #fff;
 }
 
-.text {
+.text{
     padding-left: 50px;
-}
+    color: #c5c5c5;
+  }
+  
+  a:hover .text {
+    color: rgb(12, 12, 12);
+  }
 
 header .logo h1 {
     margin: 0;
