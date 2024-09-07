@@ -6,7 +6,7 @@
 
 body {
     font-family: "Figtree", sans-serif;
-    background: url('assets/img/home/bg.avif') no-repeat center center fixed;
+    background: url('assets/img/home/bg.svg') no-repeat center center fixed;
     background-size: cover;
     color: #ffffff;
     padding-top: -10px;
